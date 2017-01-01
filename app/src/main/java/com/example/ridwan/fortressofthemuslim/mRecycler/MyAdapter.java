@@ -36,7 +36,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
     @Override
     public MyHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        View v= LayoutInflater.from(parent.getContext()).inflate(R.layout.model,parent,false);
+        View v= LayoutInflater.from(parent.getContext()).inflate(R.layout.all_dua_list_model,parent,false);
         return new MyHolder(v);
     }
 
