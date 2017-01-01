@@ -1,4 +1,4 @@
-package com.example.ridwan.fortressofthemuslim;
+package com.example.ridwan.fortressofthemuslim.mDetail;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -12,10 +12,11 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.ridwan.fortressofthemuslim.R;
 import com.example.ridwan.fortressofthemuslim.mData.DuasCollection;
 import com.example.ridwan.fortressofthemuslim.mRecycler.MyAdapter;
 
-public class MainActivity extends AppCompatActivity {
+public class AllDuaActivity extends AppCompatActivity {
 
     SearchView sv;
 

@@ -10,7 +10,7 @@ import android.widget.Filter;
 import android.widget.Toast;
 
 import com.example.ridwan.fortressofthemuslim.mData.Dua;
-import com.example.ridwan.fortressofthemuslim.mDetail.DetailActivity;
+import com.example.ridwan.fortressofthemuslim.mDetail.DuaDetailActivity;
 import com.example.ridwan.fortressofthemuslim.R;
 
 import java.util.ArrayList;
@@ -79,7 +79,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
 
     private void openDetailActivity(String name, int image, String arabicD, String duaTransliteration)
     {
-        Intent i=new Intent(c, DetailActivity.class);
+        Intent i=new Intent(c, DuaDetailActivity.class);
 
         //PACK DATA TO SEND
         i.putExtra("NAME_KEY",name);

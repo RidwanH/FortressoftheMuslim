@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.example.ridwan.fortressofthemuslim.R;
 
-public class DetailActivity extends AppCompatActivity {
+public class DuaDetailActivity extends AppCompatActivity {
 
     TextView nameTxt, transTxt, arabTxt;
     ImageView img;

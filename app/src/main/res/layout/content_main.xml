@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.ridwan.fortressofthemuslim.MainActivity"
+    tools:context="com.example.ridwan.fortressofthemuslim.mDetail.AllDuaActivity"
     tools:showIn="@layout/activity_main">
 
     <android.support.v7.widget.SearchView
@@ -19,7 +19,6 @@
         android:queryHint="Search"
         app:queryHint="Search"
         android:animationCache="false" />
-//git test
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv"
