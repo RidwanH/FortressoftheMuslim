@@ -19,6 +19,7 @@
         android:queryHint="Search"
         app:queryHint="Search"
         android:animationCache="false" />
+//git test
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv"
